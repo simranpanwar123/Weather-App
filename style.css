@@ -9,7 +9,7 @@
     width: 90%;
     max-width: 450px;
     margin: 100px auto 0;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    background: linear-gradient(135deg, #05cef1, #130274);
     color: #fff;
     padding:40px 35px;
     border-radius: 20px;
@@ -90,4 +90,41 @@
     margin-top: 10px;
     font-size: 14px;
     display: none;
+}
+@media screen and (max-width: 780px){
+    .card{
+        padding: 30px 20px;
+        width: 90%  ;
+    }
+    .weather h1{
+        font-size: 50px;
+    }
+    .weather h2{
+        font-size: 30px;
+    }
+    .details{
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .col{
+        justify-content: center;
+    }
+    .search button{
+        width: 50px;
+        height: 50px;
+    }
+    .humidity, .wind{
+        font-size: 20px;
+        margin-right: 4px;
+    }
+    .col img{
+    width: 40px;
+    margin-right: 4px;
+    
+    }
+    .weather-icon{
+    width: 170px;
+    margin: 20px auto 0;
+}
 }
